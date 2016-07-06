@@ -101,7 +101,7 @@ var playState = {
         */
         this.client.exports.kill = function(id){	
             if (globals.playerList[id]) {
-                //globals.playerList[id].kill();
+                globals.playerList[id].kill();
                 console.log('killing ', id, globals.playerList[id]);
             }
         }	
